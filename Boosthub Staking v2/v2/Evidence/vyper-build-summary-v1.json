@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "audit-v7-private-vyper-build-summary-v1",
+  "status": "completed",
+  "compilerVersion": "0.4.3",
+  "observedVersion": "0.4.3+commit.bff19ea2",
+  "sourceFiles": 1,
+  "sourceInventory": ["contracts/boosthub/vyper/BoostHubStaking-v16.vy"],
+  "artifactDigest": "71a38bd0530d93dad91d090a40922ad0ae3033264f84c2706ffe89dd0615576c",
+  "rawBuildEvidenceSha256": "29ee224d9cd086437724e99c1aeed40d310f9c7fcdc6c75cbb1390aa8790e72f",
+  "blockingDiagnostics": 0,
+  "nonBlockingDiagnostics": {
+    "category": "Deprecation",
+    "summary": "Vyper 0.4.3 reports positional event-argument syntax as deprecated; compilation succeeds and the warnings do not block this phase.",
+    "futureCompatibilityNote": "Use keyword arguments for event logging before a future Vyper release disallows positional event construction."
+  }
+}

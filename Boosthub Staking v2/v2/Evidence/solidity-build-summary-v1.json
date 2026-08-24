@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "audit-v7-private-solidity-build-summary-v1",
+  "status": "completed",
+  "compilerVersion": "0.8.28",
+  "optimizer": {"enabled":true,"runs":200},
+  "viaIR": true,
+  "evmVersion": "cancun",
+  "sourceFiles": 7,
+  "sourceInventory": [
+    "contracts/CurveYieldGovernanceToken.sol",
+    "contracts/CurveYieldVault.sol",
+    "contracts/boosthub/CurveYieldStakingStrategyV2.sol",
+    "contracts/boosthub/SdYbRewardConverter.sol",
+    "contracts/interfaces/ICurveChildGauge.sol",
+    "contracts/interfaces/ICurveYieldVault.sol",
+    "contracts/interfaces/ICurveYieldVaultStrategy.sol"
+  ],
+  "artifactCount": 29,
+  "artifactDigest": "cf7008c2b431cf1c01dd1318f85b2682b3ea21595a6f41bf3178feb70f9fb66f",
+  "rawBuildEvidenceSha256": "33d9e4f4c9eba73ca7e8ac00cd54a9e94ec1998dcaed92d407956112ae118d1b",
+  "compilerDiagnostics": [
+    {
+      "severity": "warning",
+      "errorCode": "2018",
+      "message": "Function state mutability can be restricted to view",
+      "source": "contracts/CurveYieldGovernanceToken.sol",
+      "line": 494
+    }
+  ],
+  "blockingDiagnostics": 0
+}

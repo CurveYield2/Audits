@@ -1,0 +1,40 @@
+{
+  "fuzzing": {
+    "workers": 2,
+    "workerResetLimit": 50,
+    "timeout": 0,
+    "testLimit": 20000,
+    "shrinkLimit": 5000,
+    "callSequenceLength": 32,
+    "pruneFrequency": 5,
+    "corpusDirectory": ".phase6-medusa-v1/corpus",
+    "coverageEnabled": true,
+    "coverageFormats": ["lcov"],
+    "revertReporterEnabled": false,
+    "targetContracts": ["Phase6QuoteDepressionMedusaHarnessV1"],
+    "testing": {
+      "stopOnFailedTest": false,
+      "stopOnFailedContractMatching": false,
+      "stopOnNoTests": true,
+      "testAllContracts": false,
+      "testViewMethods": true,
+      "verbosity": 1,
+      "assertionTesting": {"enabled": true},
+      "propertyTesting": {"enabled": true, "testPrefixes": ["property_"]},
+      "optimizationTesting": {"enabled": false, "testPrefixes": ["optimize_"]},
+      "targetFunctionSignatures": [],
+      "excludeFunctionSignatures": []
+    }
+  },
+  "compilation": {
+    "platform": "crytic-compile",
+    "platformConfig": {
+      "target": "contracts/phase6/Phase6QuoteDepressionMedusaHarness-v1.sol",
+      "solcVersion": "0.8.28",
+      "exportDirectory": "",
+      "args": ["--solc-remaps", "@openzeppelin/=node_modules/@openzeppelin/"]
+    }
+  },
+  "slither": {"useSlither": false, "cachePath": ".phase6-medusa-v1/slither-results.json", "args": []},
+  "logging": {"level": "info", "logDirectory": ".phase6-medusa-v1/logs", "noColor": true}
+}

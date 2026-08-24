@@ -1,0 +1,38 @@
+{
+  "scope": [
+    {
+      "name": "contracts/CurveYieldGovernanceToken.sol",
+      "status": "REVIEWED"
+    },
+    {
+      "name": "contracts/CurveYieldVault.sol",
+      "status": "REVIEWED"
+    },
+    {
+      "name": "contracts/boosthub/CurveYieldStakingStrategyV2.sol",
+      "status": "REVIEWED"
+    },
+    {
+      "name": "contracts/boosthub/SdYbRewardConverter.sol",
+      "status": "REVIEWED"
+    },
+    {
+      "name": "contracts/boosthub/vyper/BoostHubStaking-v17.vy",
+      "status": "REVIEWED_FINAL"
+    },
+    {
+      "name": "contracts/interfaces/ICurveChildGauge.sol",
+      "status": "REVIEWED"
+    },
+    {
+      "name": "contracts/interfaces/ICurveYieldVault.sol",
+      "status": "REVIEWED"
+    },
+    {
+      "name": "contracts/interfaces/ICurveYieldVaultStrategy.sol",
+      "status": "REVIEWED"
+    }
+  ],
+  "security_subject": "DECLARED_SMART_CONTRACTS_ONLY",
+  "version": 1
+}

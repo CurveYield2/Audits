@@ -1,0 +1,213 @@
+{
+  "base_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/",
+  "files": [
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/smart-contract-scope_v1.json",
+      "published_name": "smart-contract-scope_v1.json",
+      "published_path": "Evidence/smart-contract-scope_v1.json",
+      "role": "generated_contract_scope",
+      "sha256": "3b98afbedb4052f21fbc39b9eb4e3368e908f86d41af1f2419f8ec67dea25bd8",
+      "source_sha256": null,
+      "source_version": 1
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json",
+      "published_name": "contract-findings_v1.json",
+      "published_path": "Evidence/contract-findings_v1.json",
+      "role": "generated_contract_findings",
+      "sha256": "110002cf9e4d79efb052762344cf7207e7b09f352d3b7ca5b2f7dd0d2d5ee86f",
+      "source_sha256": null,
+      "source_version": 1
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+      "published_name": "contract-methodology-summary_v1.json",
+      "published_path": "Evidence/contract-methodology-summary_v1.json",
+      "role": "generated_contract_methodology",
+      "sha256": "6ecda72027c9da872cd0f8417fbd8a8847e7fa9c3ca4a18e3fda3e84bd374799",
+      "source_sha256": null,
+      "source_version": 1
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/CurveYieldGovernanceToken.sol",
+      "published_name": "CurveYieldGovernanceToken.sol",
+      "published_path": "Source/contracts/CurveYieldGovernanceToken.sol",
+      "role": "audited_contract_source",
+      "sha256": "16807c0cb25b4534d72fa476b20a374fc52514c9214cf7d58dd33c8991cf625a",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/CurveYieldVault.sol",
+      "published_name": "CurveYieldVault.sol",
+      "published_path": "Source/contracts/CurveYieldVault.sol",
+      "role": "audited_contract_source",
+      "sha256": "6b6f6601932e26c5ff8e5d846265f78c9433eee1eced34e66d045ddc58442d07",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/boosthub/CurveYieldStakingStrategyV2.sol",
+      "published_name": "CurveYieldStakingStrategyV2.sol",
+      "published_path": "Source/contracts/boosthub/CurveYieldStakingStrategyV2.sol",
+      "role": "audited_contract_source",
+      "sha256": "e2821e3ce2d45e78cc3f2080837427ad96673d5a9aab081c4c4526938c0ee255",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/boosthub/SdYbRewardConverter.sol",
+      "published_name": "SdYbRewardConverter.sol",
+      "published_path": "Source/contracts/boosthub/SdYbRewardConverter.sol",
+      "role": "audited_contract_source",
+      "sha256": "688f39bc221c9e8063b4f6eb7e83a1cd3c6cba679e4d704a44f9dd83db851367",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/boosthub/vyper/BoostHubStaking-v17.vy",
+      "published_name": "BoostHubStaking-v17.vy",
+      "published_path": "Source/contracts/boosthub/vyper/BoostHubStaking-v17.vy",
+      "role": "audited_contract_source",
+      "sha256": "d579f10a191bcf72feb8c220d7de4de447d9667e4ae923540df42781ee8f4216",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/interfaces/ICurveChildGauge.sol",
+      "published_name": "ICurveChildGauge.sol",
+      "published_path": "Source/contracts/interfaces/ICurveChildGauge.sol",
+      "role": "audited_contract_source",
+      "sha256": "c0cff1d99efdc319a2820243b8773b03b94cd3bc05dc7b54570b332cf84f8724",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/interfaces/ICurveYieldVault.sol",
+      "published_name": "ICurveYieldVault.sol",
+      "published_path": "Source/contracts/interfaces/ICurveYieldVault.sol",
+      "role": "audited_contract_source",
+      "sha256": "fa0713fd3bf50106e5a464932b1aee1100a00cc7f2de133145c71e114d384124",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Source/contracts/interfaces/ICurveYieldVaultStrategy.sol",
+      "published_name": "ICurveYieldVaultStrategy.sol",
+      "published_path": "Source/contracts/interfaces/ICurveYieldVaultStrategy.sol",
+      "role": "audited_contract_source",
+      "sha256": "5a5a1fca061a2500d0d1869af1849cf1a91295cb93d0e669bff328095660ea78",
+      "source_sha256": "f792b79660402e5a75006121128f244af846f2301b38be1fe01a3e8a3a0be6aa",
+      "source_version": 11
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/MEDUSA-TERMINAL-RECORD-v3.json",
+      "published_name": "MEDUSA-TERMINAL-RECORD-v3.json",
+      "published_path": "Evidence/MEDUSA-TERMINAL-RECORD-v3.json",
+      "role": "fuzz_receipt",
+      "sha256": "b3ec4b5e466b2e9d9e11f40318c6d4e26ed5239a10a430ec4dfd052c1f5d1325",
+      "source_sha256": "b3ec4b5e466b2e9d9e11f40318c6d4e26ed5239a10a430ec4dfd052c1f5d1325",
+      "source_version": 3
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/NATIVE-FUZZ-TERMINAL-RECORD-v3.json",
+      "published_name": "NATIVE-FUZZ-TERMINAL-RECORD-v3.json",
+      "published_path": "Evidence/NATIVE-FUZZ-TERMINAL-RECORD-v3.json",
+      "role": "fuzz_receipt",
+      "sha256": "5155069f599a0da0565faf9a328332afbf34d49de2408fa5c14ed277e3e5f0ab",
+      "source_sha256": "5155069f599a0da0565faf9a328332afbf34d49de2408fa5c14ed277e3e5f0ab",
+      "source_version": 3
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/PHASE6_DETERMINISTIC_RESULTS-v1.json",
+      "published_name": "PHASE6_DETERMINISTIC_RESULTS-v1.json",
+      "published_path": "Evidence/PHASE6_DETERMINISTIC_RESULTS-v1.json",
+      "role": "test_receipt",
+      "sha256": "f00535f38a9503bb33f5c8b3a8ed0239e164d18b4ebbaaabc79e208798135933",
+      "source_sha256": "f00535f38a9503bb33f5c8b3a8ed0239e164d18b4ebbaaabc79e208798135933",
+      "source_version": 1
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/solidity-build-summary-v1.json",
+      "published_name": "solidity-build-summary-v1.json",
+      "published_path": "Evidence/solidity-build-summary-v1.json",
+      "role": "compiler_receipt",
+      "sha256": "9a7d1837fb0003e5a42df4ba69a2f3175b6ffb1a35768f4f70c9988a1bb2a484",
+      "source_sha256": "9a7d1837fb0003e5a42df4ba69a2f3175b6ffb1a35768f4f70c9988a1bb2a484",
+      "source_version": 1
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/vyper-build-summary-v1.json",
+      "published_name": "vyper-build-summary-v1.json",
+      "published_path": "Evidence/vyper-build-summary-v1.json",
+      "role": "compiler_receipt",
+      "sha256": "574b56d7eacf71656ae7a97680dc412e269b132cef91a389aa1468ad17781133",
+      "source_sha256": "574b56d7eacf71656ae7a97680dc412e269b132cef91a389aa1468ad17781133",
+      "source_version": 1
+    },
+    {
+      "public_url": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/PHASE6_MEDUSA_CONFIG-v1.json",
+      "published_name": "PHASE6_MEDUSA_CONFIG-v1.json",
+      "published_path": "Evidence/PHASE6_MEDUSA_CONFIG-v1.json",
+      "role": "fuzz_receipt",
+      "sha256": "7f9c3a42d85ec313d8d49cc9ef3d433f37955ca57b1dcd808a490da76b46ae44",
+      "source_sha256": "7f9c3a42d85ec313d8d49cc9ef3d433f37955ca57b1dcd808a490da76b46ae44",
+      "source_version": 1
+    }
+  ],
+  "findings": {
+    "BH-V2-LOW-001": {
+      "evidence": [
+        "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json"
+      ]
+    },
+    "BH-V2-LOW-002": {
+      "evidence": [
+        "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json"
+      ]
+    },
+    "BH-V2-LOW-003": {
+      "evidence": [
+        "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json"
+      ]
+    },
+    "BH-V2-LOW-004": {
+      "evidence": [
+        "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json"
+      ]
+    },
+    "BH-V2-LOW-005": {
+      "evidence": [
+        "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json"
+      ]
+    },
+    "BH-V2-LOW-006": {
+      "evidence": [
+        "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json"
+      ]
+    },
+    "BH-V2-RR2-LOW-001": {
+      "evidence": [
+        "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-findings_v1.json"
+      ]
+    }
+  },
+  "identifiers": {
+    "038862f3c09e3d5e4d6111f7f48f44ee71a76652": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "0x360a9fcfe686529fbf4ef56d9b86c7527c89b52d73e17bff82308bc80816f12a": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "0xf42768ffc8eb004ba3c9eb5ba86a7659b8dc35d6": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "10ae544506da2f40567afc7a0c1d2f7f044f8a6a": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "223e4f239e870742da60641eea8582afb139fdf4": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "4072e48705af9d93e3c0f6e29e93b5e9a40caed8": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/NATIVE-FUZZ-TERMINAL-RECORD-v3.json",
+    "612fa50264e587e3f24550bf4dae35719b04211c": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "819be4a8c0474eadc277193158554aaa5bfc1965": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "867840b60231953812ab4db4ece21758f1a7881c": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json",
+    "bfd1c1b539fdde78df7633aaa04368cdef196dbf": "https://github.com/CurveYield2/Audits/blob/main/Boosthub%20Staking%20v2/v2/Evidence/contract-methodology-summary_v1.json"
+  },
+  "omitted_counts": {
+    "private_content": 5,
+    "secret_marker": 0,
+    "unsafe_path": 0
+  },
+  "version": 3
+}

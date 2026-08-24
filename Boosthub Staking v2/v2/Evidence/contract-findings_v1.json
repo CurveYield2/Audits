@@ -1,0 +1,66 @@
+{
+  "findings": [
+    {
+      "description": "The Vault's standard-deposit accounting can allow a new depositor to receive a marginal share advantage when the value attributed to already-accrued but unharvested rewards is temporarily depressed. Pinned-fork testing reproduced the effect, but the demonstrated economic impact was very small and no scalable profitable extraction loop was established.",
+      "final_disposition": "ACCEPTED \u2014 MARGINAL BOUNDED ECONOMIC IMPACT.",
+      "id": "BH-V2-LOW-001",
+      "severity": "Low",
+      "status": "ACCEPTED",
+      "title": "Vault reward-preview valuation can marginally affect share issuance"
+    },
+    {
+      "description": "The original conversion design could use insufficiently independent market-derived values for conversion protection, allowing reachable reward-processing liveness failures under adverse market conditions.",
+      "final_disposition": "FIXED / VERIFIED.",
+      "id": "BH-V2-LOW-002",
+      "remediation": "The remediation replaced the affected behavior with oracle-aware conversion pricing and explicit execution tolerance. Reviewer-4 independently re-tested the changed converter families against executable Curve routes.",
+      "severity": "Low",
+      "status": "REMEDIATED_VERIFIED",
+      "title": "Converter fair-value / execution protection"
+    },
+    {
+      "description": "After a reward route is disabled and the contractual rescue delay completes, reward-token balances held by the Strategy can become rescuable by the privileged owner. The behavior is limited to reward-token value, requires privileged action, and does not expose deposited principal.",
+      "final_disposition": "ACCEPTED \u2014 MARGINAL BOUNDED ECONOMIC IMPACT.",
+      "id": "BH-V2-LOW-003",
+      "severity": "Low",
+      "status": "ACCEPTED",
+      "title": "Disabled reward-route balances can become owner-rescuable"
+    },
+    {
+      "description": "A residual `reward_remaining` balance can remain recoverable while the reward remains enabled, but disabling the reward can remove the later rescheduling path that otherwise distributes that carry. The condition requires the relevant reward-state sequence and does not affect deposited principal.",
+      "final_disposition": "ACCEPTED \u2014 MARGINAL BOUNDED ECONOMIC IMPACT.",
+      "id": "BH-V2-LOW-004",
+      "severity": "Low",
+      "status": "ACCEPTED",
+      "title": "Residual reward carry can become stranded after reward disablement"
+    },
+    {
+      "description": "The original Strategy could retain an old `tokenRescueReadyAt` timestamp across reward-route re-enablement, allowing a later disable/rescue cycle to inherit a previously matured timer instead of receiving a fresh delay.",
+      "final_disposition": "FIXED / VERIFIED.",
+      "id": "BH-V2-LOW-005",
+      "remediation": "The remediation clears the stale timer when the reward route is successfully re-added. Reviewer-4 independently reproduced the original sequence against the remediated source and confirmed the stale-timer shortcut no longer succeeds.",
+      "severity": "Low",
+      "status": "REMEDIATED_VERIFIED",
+      "title": "Stale rescue-timer pre-aging"
+    },
+    {
+      "description": "The original staking constructor could incorrectly require the configured WANT to also be registered as a BoostHub-native reward. For the sdYB pool, this prevented the intended staking contract construction because sdYB is the WANT but is not a native BoostHub reward token.",
+      "final_disposition": "FIXED / VERIFIED.",
+      "id": "BH-V2-LOW-006",
+      "remediation": "The remediation separates WANT accounting from BoostHub-native reward-source validation. Reviewer-4 independently constructed the remediated V17 staking contract for the pinned PID2/sdYB configuration and verified the corrected classification behavior.",
+      "severity": "Low",
+      "status": "REMEDIATED_VERIFIED",
+      "title": "sdYB WANT / BoostHub-native reward classification incompatibility"
+    },
+    {
+      "description": "The first remediation round corrected converter pricing but left the staking contract passing its oracle-derived preview as an exact minimum output. Normal oracle-versus-executable-price divergence could therefore revert fee conversion even without a security-significant price anomaly.",
+      "final_disposition": "FIXED / VERIFIED.",
+      "id": "BH-V2-RR2-LOW-001",
+      "remediation": "V17 adds staking-side conversion tolerance with a **1% default**, administrator configurability, and a **4% hard maximum**. Reviewer-4 independently verified the former failing route, the 400-bps maximum, the >400-bps rejection path, and non-admin access rejection.",
+      "severity": "Low",
+      "status": "REMEDIATED_VERIFIED",
+      "title": "Exact oracle preview used as staking fee-conversion `minOut"
+    }
+  ],
+  "security_subject": "DECLARED_SMART_CONTRACTS_ONLY",
+  "version": 1
+}

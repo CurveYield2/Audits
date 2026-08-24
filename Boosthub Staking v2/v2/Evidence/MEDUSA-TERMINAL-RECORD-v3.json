@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "audit-v7-phase6-medusa-terminal-evidence-v3",
+  "campaignGenerationId": "boosthub-staking-v2-g1-20260818T215920Z",
+  "sourceIdentityDigest": "561395b8953e42d4fdc3049eb46c9f7a5453d62ac2852f1c0f89cfa0931b10c2",
+  "engineOrderPosition": 1,
+  "engine": "MEDUSA",
+  "engineVersion": "1.5.1",
+  "terminal": true,
+  "exitCode": 7,
+  "candidate": "P2-CAND-001",
+  "candidateReproduced": true,
+  "harnessSha256": "45aff18d0545f3336415e4725a3ae8bd04e00de4940d716bf226e1ff325f72fe",
+  "terminalLogSha256": "f1c86243dc1131862acd8331a9836e96bd22495f8d01ca9154232a2162f8230b",
+  "nativeFuzzExecuted": false,
+  "productionSourceMutated": false
+}

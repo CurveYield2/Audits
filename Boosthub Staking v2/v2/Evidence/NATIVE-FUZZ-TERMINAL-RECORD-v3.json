@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "audit-v7-phase6-native-fuzz-terminal-evidence-v3",
+  "campaignGenerationId": "boosthub-staking-v2-g1-20260818T215920Z",
+  "sourceIdentityDigest": "561395b8953e42d4fdc3049eb46c9f7a5453d62ac2852f1c0f89cfa0931b10c2",
+  "engineOrderPosition": 2,
+  "engine": "NATIVE_FUZZ",
+  "engineVersion": "forge Version: 1.7.1\nCommit SHA: 4072e48705af9d93e3c0f6e29e93b5e9a40caed8\nBuild Timestamp: 2026-05-08T07:50:55.527285345Z (1778226655)\nBuild Profile: dist",
+  "fuzzRuns": 10000,
+  "terminal": true,
+  "exitCode": 1,
+  "candidate": "P2-CAND-001",
+  "candidateReproduced": true,
+  "medusaPrerequisiteVerified": true,
+  "terminalLogSha256": "6fc4041ab855d160ec045a457861d5f14400a62cf46e141811eb6ec8fc00c93c"
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "audit-v7-boosthub-staking-v2-phase6-deterministic-v1",
+  "sourceIdentityDigest": "561395b8953e42d4fdc3049eb46c9f7a5453d62ac2852f1c0f89cfa0931b10c2",
+  "results": [
+    {
+      "id": "P3-CAND-004",
+      "reproduced": true,
+      "held": "1000000000000000000000",
+      "estimatedWantWhileDisabled": "0",
+      "rescued": "1000000000000000000000",
+      "readyAt": "1792352158"
+    },
+    {
+      "id": "P4-CAND-006",
+      "reproduced": true,
+      "oldReadyAt": "1797536169",
+      "persistedReadyAt": "1797536169",
+      "freshDelaySeconds": "1",
+      "rescued": "777000000000000000000"
+    },
+    {
+      "id": "P2-CAND-003",
+      "reproducedInSourceBoundMock": true,
+      "grossReward": "1000000000000000000000",
+      "netAfterStrategyFees": "970000000000000000000",
+      "independentMockFairValue": "970000000000000000000",
+      "realizedWant": "9700000000000000000",
+      "realizedToFairBps": "100",
+      "note": "Exact Strategy accepted converter execution at 1% of the independently defined mock fair value because minOut was derived from the same depressed preview."
+    },
+    {
+      "id": "P2-CAND-002",
+      "reproduced": true,
+      "initiallyRemaining": "1000000000000000000000",
+      "afterZeroWeightFinish": "1000000000000000000000",
+      "afterStakeAlone": "1000000000000000000000",
+      "afterReschedule": "2000000000000000000000",
+      "afterRecoveryEmission": "999768518518518520599"
+    },
+    {
+      "id": "P4-CAND-005",
+      "reproduced": true,
+      "remainingAtDisable": "1000000000000000000000",
+      "disabled": true,
+      "laterFundingRejected": true
+    }
+  ],
+  "validatedFindings": 0,
+  "note": "Dynamic reproductions are Phase-6 candidate evidence only; authoritative validation/severity remains downstream."
+}
